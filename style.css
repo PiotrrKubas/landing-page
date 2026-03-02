@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+        background-color: #1f2937;
+}
+
+.nav-bar {
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+}
+
+.logo {
+font-size: 24px;
+color: #f9FAF8;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex: row;
+    gap: 10px;
+}
+
+.footer{
+    background-color: #1f2937;
+    height: 30px;
+}

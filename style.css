@@ -10,18 +10,14 @@ body {
 }
 
 .hero {
-        background-color: #1f2937;
+    background-color: #1f2937;
 }
 
 .nav-bar {
     display: flex;
     flex: row;
-    justify-content: space-between;
-}
-
-.logo {
-font-size: 24px;
-color: #f9FAF8;
+    justify-content: space-around;
+    margin-top: 10px;
 }
 
 ul {
@@ -29,9 +25,61 @@ ul {
     display: flex;
     flex: row;
     gap: 10px;
+    color: #e5e7eb;
+    font-size: 18px;
 }
+
+a {
+    text-decoration: none;
+    color: #f9FAF8;
+}
+
+.logo {
+font-size: 24px;
+color: #f9FAF8;
+}
+
 
 .footer{
     background-color: #1f2937;
     height: 30px;
+}
+
+.presentation {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.awesome {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-description {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    width: 150px;
+    height: 50px;
+    color: #f9faf8;
+    border-radius: 10px;
+    border: none;
+}
+
+.hero-img {
+    width: 600px;
 }

@@ -11,13 +11,16 @@ body {
 
 .hero {
     background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .nav-bar {
     display: flex;
     flex: row;
-    justify-content: space-around;
-    gap: 400px;
+    align-items: center;
+    gap: 760px;
     margin-top: 10px;
 }
 
@@ -50,7 +53,7 @@ color: #f9FAF8;
     margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
-    justify-content: space-evenly;
+    gap: 100px;
 }
 
 .awesome {
@@ -72,17 +75,19 @@ color: #f9FAF8;
     margin-bottom: 20px;
 }
 
-.hero-button {
+.button {
     background-color: #3882f6;
     width: 150px;
     height: 50px;
     color: #f9faf8;
     border-radius: 10px;
     border: none;
+    font-size: 20px;
 }
 
 .hero-img {
     width: 600px;
+    border-radius: 10px;
 }
 
 .information {
@@ -154,4 +159,38 @@ color: #f9FAF8;
 
 .signature {
     align-self: flex-end;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+.call-to-action {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 1000px;
+    height: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    .button {
+        border: white solid 2px;
+    }
+
+    h2, p {
+        color: #f9FAF8;
+    }
+}
+
+.cta-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    color: rgb(243, 235, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
